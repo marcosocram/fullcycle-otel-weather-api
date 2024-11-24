@@ -16,7 +16,7 @@ services:
     ports:
       - "8082:8082"
     environment:
-      - WEATHER_API_KEY=ed40a91acbbe4226b7535827241311
+      - WEATHER_API_KEY="sua_chave_api_aqui"
       - OTEL_EXPORTER_OTLP_ENDPOINT=http://otel-collector:4318
     networks:
       - example
